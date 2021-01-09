@@ -14,7 +14,7 @@ def draw():
         rotate(radians(360 / 90))
         pushMatrix()
         translate(200, 0)
-        rotate(radians(t + 1 * 360 / 90))
+        rotate(radians(t + 2 * i * 360 / 90))
         tri(100)
         popMatrix()
     t += 0.5
